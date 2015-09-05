@@ -17,7 +17,7 @@ $page_content = str_replace("!!HEADER!!", file_get_contents("design/header.html"
 $page_content = str_replace("!!LEFT_COLUMN!!", file_get_contents("design/left_column.html"),$page_content);
 $page_content = str_replace("!!RIGHT_COLUMN!!", file_get_contents("design/right_column.html"),$page_content);
 $page_content = str_replace("!!FOOTER!!", file_get_contents("design/footer.html"),$page_content);
-// $page_content = str_replace("!!COMMON_TAGS!!", file_get_contents("design/common_tags.html"),$page_content);
+$page_content = str_replace("!!COMMON_TAGS!!", file_get_contents("design/common_tags.html"),$page_content);
 
 echo $page_content;
 
