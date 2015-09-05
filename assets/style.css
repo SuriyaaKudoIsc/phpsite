@@ -1,0 +1,29 @@
+/* CSS-STYLESHEET */
+
+body {
+  background-color:#003399;
+  color:#FFFFFF;
+}
+
+a {
+  color:#FFFFFF;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+.column {
+  background-color:#3366CC;
+  vertical-align:top;
+}
+
+.header {
+  background-color:#336699;
+}
+
+.footer {
+  background-color:#336699;
+}
